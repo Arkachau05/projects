@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+header, section, footer {
+    background-color: #aeaeae;
+    padding: 1px ;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#portfolio .project {
+    margin-bottom: 1px;
+}
+
+footer {
+    margin-top: 5px;
+    color: #4a4a4a;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+.propic
+{
+    border: black solid 1px;
+    border-radius: 50%;
+    height: 25vh;
+    width: 12vw;
+}
+.project
+{
+display:flex;
+justify-content:space-evenly;
+}
